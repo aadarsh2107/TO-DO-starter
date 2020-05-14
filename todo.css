@@ -1,0 +1,49 @@
+body {
+    background-image: linear-gradient(to right,pink,blue);
+margin:0;
+padding:8%;
+}
+#login-id{
+    margin:0 auto;
+    max-width: 600px;
+    background-color: white;
+    padding: 32px;
+    box-sizing: border-box;
+    border-radius:8px;
+}
+.input-field{
+    width:100%;
+    padding:8 16px;
+    box-sizing: border-box;
+    font-size: 24px;
+    border: none;
+    border-bottom:1px solid blue ;
+    outline: none;
+}
+.input-field::placeholder{
+    color:blue;
+}
+
+.todo-item{
+    width:100%;
+    background-color: white;
+    border-radius:8px;
+    padding:32px;
+    box-sizing: border-box;
+    margin:16px 0;
+    display:flex;
+    justify-content:space-between ;
+    align-items: center;
+
+}
+.todo-item> i{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+
+}
+#main-container{
+    width:100%;
+    max-width:600px;
+    margin:0 auto;
+}
